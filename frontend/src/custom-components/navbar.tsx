@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { FC } from "react";
 import {
   NavigationMenu,
   NavigationMenuItem,
@@ -7,14 +6,13 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Headset } from "lucide-react";
 
-type NavbarPropsTypes = {};
-const Navbar: FC<NavbarPropsTypes> = ({}: NavbarPropsTypes) => {
+const Navbar = () => {
   return (
     <div className="container py-2 border-b">
       <NavigationMenu className="bg-">
         <NavigationMenuList>
           <NavigationMenuItem>
-            <Button variant="">Home</Button>
+            <Button variant="ghost">Home</Button>
           </NavigationMenuItem>
           <NavigationMenuItem>
             <Button variant="ghost">
