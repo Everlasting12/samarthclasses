@@ -1,7 +1,4 @@
-import { FC } from "react";
-
-type ContactPropsTypes = {};
-const Contact: FC<ContactPropsTypes> = ({}: ContactPropsTypes) => {
+const Contact = () => {
   return <div className=""></div>;
 };
 
